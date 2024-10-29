@@ -1,5 +1,5 @@
-![Book logo](/ktb/public/images/README.png)
-![Book logo](/ktb/public/images/README2.png)
+![Book logo](/public/images/README.png)
+![Book logo](/public/images/README2.png)
 
 ANTI-PIRACY CRYPTO SYSTEM V.01
 The Anti-Piracy Crypto System represents a breakthrough in secure, autonomous wallet address storage, introducing a first-of-its-kind method where users can make direct, automated requests through web-based buttons. This innovative approach enables decentralized data exchange, as wallet interactions happen without centralized intermediaries, empowering peer-to-peer cryptography on a new level.
