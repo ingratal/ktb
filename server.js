@@ -1,3 +1,4 @@
+
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -8,11 +9,11 @@ const Web3 = require('web3');
 const PORT = process.env.PORT || 4200;
 
 // Serve static files (your Webflow export)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 // Basic route to serve index.html from the public directory
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html')); // Updated path
+  res.sendFile(path.join(__dirname, 'dist', 'index.html')); // Updated path
 });
 
 

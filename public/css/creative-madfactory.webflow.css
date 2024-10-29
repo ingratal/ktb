@@ -493,7 +493,8 @@
   color: #e6e6e6;
   text-align: center;
   text-shadow: -3px 1px 4px #000;
-  margin: 0 200px 532px;
+  width: 900px;
+  margin: 0 auto 532px;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -504,12 +505,13 @@
 }
 
 .image-4 {
+  width: 500px;
   max-width: 100%;
   margin-top: 0;
   margin-left: 0;
   padding-right: 0;
   position: absolute;
-  inset: auto auto 0% 0%;
+  inset: auto 0% 0%;
 }
 
 .button-2 {
@@ -823,11 +825,12 @@
   }
 
   .text-block-9 {
+    width: 900px;
     margin-bottom: 441px;
-    margin-left: 140px;
-    margin-right: 140px;
-    padding-left: 220px;
-    padding-right: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
     position: absolute;
     inset: auto 0% 0%;
   }
@@ -975,6 +978,7 @@
   }
 
   .text-block-9 {
+    width: 600px;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -1176,14 +1180,15 @@
 
   .text-block-9 {
     z-index: 1;
+    width: 500px;
     margin: 86px auto 334px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     inset: auto 0% 0%;
   }
 
   .image-4 {
-    margin-top: 655px;
+    margin-top: 796px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -1388,8 +1393,8 @@
   }
 
   .text-block-8 {
-    margin: 402px 20px 0;
-    padding-top: 0;
+    margin: 0 20px;
+    padding-top: 551px;
     font-family: Droid Serif, serif;
     font-size: 35px;
     position: relative;
@@ -1420,15 +1425,19 @@
 
   .image-3 {
     -webkit-text-fill-color: transparent;
+    background-color: #df373700;
+    background-image: url('../images/KIRATHEQUEEN.png');
+    background-position: 50%;
+    background-attachment: fixed;
     -webkit-background-clip: text;
     background-clip: text;
     max-width: 100%;
-    margin-top: -616px;
+    margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
     padding-left: 0;
     display: block;
-    position: absolute;
+    position: relative;
     inset: 0%;
   }
 
@@ -1443,6 +1452,7 @@
     z-index: 1;
     color: #ececec;
     text-align: center;
+    width: 300px;
     margin: 0 auto;
     padding: 0;
     font-size: 10px;
@@ -1455,7 +1465,7 @@
     float: right;
     aspect-ratio: auto;
     max-width: 105%;
-    margin: 0 0 0 auto;
+    margin: 0 0 147px -8px;
     padding-top: 0;
     padding-left: 0;
     display: block;
@@ -1546,7 +1556,7 @@
   .section-8 {
     grid-template-rows: auto auto auto auto;
     position: absolute;
-    inset: 695px auto 0%;
+    inset: 110px auto 0%;
   }
 
   .container-6 {
